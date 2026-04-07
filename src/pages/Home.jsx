@@ -1,8 +1,12 @@
 import React from 'react';
 import { Play, ChevronRight } from 'lucide-react';
 import carrepair from "../images/Car_repair_Video.mp4"
+import Services from "./Services"
+import OurService from "../services/OurService"
 const Hero = () => {
   return (
+
+    <>
     <div className="relative h-[90vh] w-full overflow-hidden">
       {/* 1. Background Video Overlay */}
       <div className="absolute inset-0 z-10" />
@@ -12,9 +16,8 @@ const Hero = () => {
         autoPlay
         loop
         muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-      >
+        playsInline 
+        className="absolute inset-0 w-full h-full object-cover">
         {/* Replace this URL with your actual video file path */}
         <source 
           src={carrepair }
@@ -47,8 +50,14 @@ const Hero = () => {
 
       {/* 4. Bottom Decor (Optional) */}
       {/* <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-slate-950 to-transparent z-20" /> */}
+   
     </div>
+<Services/>
+<OurService/>
+    </>
   );
 };
+
+
 
 export default Hero;
