@@ -1,6 +1,6 @@
 import React from 'react';
 import { Play, ChevronRight } from 'lucide-react';
-import carrepair from "../images/Car_repair_Video.mp4";
+import carrepair from "../images/Car_Repair_Video.mp4";
 
 const Hero = () => {
   return (
