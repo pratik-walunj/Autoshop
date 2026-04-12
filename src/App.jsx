@@ -24,7 +24,7 @@ import EngineDiagnosticsDetail from "./services/enginediagnostics";
 import OilFilterChangeDetail from "./services/oilfilterchange";
 import BrakeSuspensionDetail from "./services/brake-suspension";
 import ACElectricalRepairDetail from "./services/acelectricalrepair";
-import PremiumComprehensiveService from "./services/PremiumComprehensiveservice";
+import PremiumComprehensiveService from "./services/PremiumComprehensiveService";
 
 const App = () => {
   return (
