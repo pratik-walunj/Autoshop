@@ -3,6 +3,7 @@ import { Play, ChevronRight } from 'lucide-react';
 import carrepair from "../images/Car_Repair_Video.mp4";
 
 const Hero = () => {
+  
   return (
     <div className="relative h-[90vh] w-full overflow-hidden">
       
