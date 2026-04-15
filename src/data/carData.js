@@ -36,6 +36,13 @@ import eon from '../images/hyundai-eon.png'
 import creta from '../images/hyundai-creta.png'
 import verna from '../images/hyundai-verna.png'
 
+// toyota
+
+import toyota_etios from '../images/toyota-etios.png'
+import toyota_innova from '../images/toyota-innova.png'
+import toyota_fortuner from '../images/toyota-fortuner.png'
+import toyota_innova_crysta from '../images/toyota-innova-crysta.png'
+import tyota_Yaris from '../images/Toyota_Yaris.png'
 
 export const carModelsByBrand = {
   maruti: [
@@ -207,5 +214,58 @@ export const carModelsByBrand = {
     },
 
   ],
+
+  toyota :[
+    {
+    id: 1, 
+      name: "Toyota Etios", 
+      image: toyota_etios,
+      type: "Toyota Etios",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Toyota Etios is a practical, spacious, and reliable subcompact sedan (and hatchback Liva) designed for families, known for its high safety standards, roomy cabin, and large 592-liter boot.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+    {
+    id: 2, 
+      name: "Toyota Innova", 
+      image: toyota_innova,
+      type: "Toyota Innova",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Toyota Innova is a highly successful series of multi-purpose vehicles (MPVs) manufactured by Toyota since 2004, renowned for its exceptional reliability, spaciousness, and durability.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+    {
+    id: 3, 
+      name: "Toyota Fortuner", 
+      image: toyota_fortuner,
+      type: "Toyota Fortuner",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Toyota Fortuner is a popular, rugged 7-seater mid-size SUV renowned for its commanding road presence, high reliability, and excellent off-road capabilities.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+    {
+    id: 4, 
+      name: "Toyota Innova Crysta", 
+      image: toyota_innova_crysta,
+      type: "Toyota Innova Crysta",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Toyota Innova Crysta is a premium, rear-wheel-drive MPV known for its exceptional reliability, comfort, and durability.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+    {
+    id: 5, 
+      name: "Toyota Yaris", 
+      image: tyota_Yaris,
+      type: "Toyota Yaris",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Toyota Yaris is a compact, fuel-efficient car (available as a hatchback or sedan) renowned for reliability, affordability, and urban agility.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+  ]
   // ... other brands
 };
