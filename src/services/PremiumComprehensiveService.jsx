@@ -80,7 +80,7 @@ const PremiumComprehensiveService = () => {
     <div className="min-h-screen bg-slate-50 font-sans pb-20">
       
       {/* --- Progress Breadcrumb --- */}
-      <div className="bg-white border-b border-slate-200 py-4 px-6 mb-8">
+      {/*<div className="bg-white border-b border-slate-200 py-4 px-6 mb-8">
         <div className="max-w-4xl mx-auto flex items-center justify-center gap-4 text-[10px] font-black uppercase tracking-[0.2em]">
           <span className="text-green-600 flex items-center gap-1"><CheckCircle2 size={14}/> Brand</span>
           <div className="h-px w-8 bg-slate-200"></div>
@@ -88,7 +88,7 @@ const PremiumComprehensiveService = () => {
           <div className="h-px w-8 bg-slate-200"></div>
           <span className="text-red-600 italic underline decoration-2 underline-offset-4">Service Selection</span>
         </div>
-      </div>
+      </div> */}
 
       {/* --- Dynamic Hero Header (Slate-900) --- */}
       <div className="bg-slate-900 py-16 px-6 text-white border-b-8 border-red-600 relative overflow-hidden">

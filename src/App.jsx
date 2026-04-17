@@ -24,7 +24,10 @@ import EngineDiagnosticsDetail from "./services/enginediagnostics";
 import OilFilterChangeDetail from "./services/oilfilterchange";
 import BrakeSuspensionDetail from "./services/brake-suspension";
 import ACElectricalRepairDetail from "./services/acelectricalrepair";
-import PremiumComprehensiveService from "./services/PremiumComprehensiveService";
+import PremiumComprehensiveService from "./services/premiumcomprehensiveservice";
+
+import InsuranceClaimPage from "./pages/insurance";
+import WhatsAppButton from "./pages/whatsappbutton";
 
 const App = () => {
   return (
@@ -76,6 +79,11 @@ const App = () => {
        
            <Route path="premium-service/:carName" element={<PremiumComprehensiveService />} />
 
+           <Route path="insurance" element={<InsuranceClaimPage/>}/>
+
+           <Route path="whatsappbutton" element={<WhatsAppButton/>}/>
+
+           
         </Route>
 
       </Routes>

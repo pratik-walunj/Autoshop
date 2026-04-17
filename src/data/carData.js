@@ -77,6 +77,24 @@ import mg_hector from '../images/mg_hector.png'
 // nissan
 
 import nissan_micra from '../images/nissan-micra.png'
+import nissan_sunny from '../images/nissan-sunny.png'
+import nissan_terrano from '../images/nissan-terrano.png'
+import nissan_teana from '../images/nissan-teana.png'
+import nissan_x_trail from '../images/nissan-x-trail.png'
+import nissan_gtr from '../images/nissan-gtr.png'
+
+//renault
+
+import renault_kwid from '../images/renault-kwid.png'
+import renault_scala from '../images/renault-scala.png'
+import renault_duster from '../images/renault-duster.png'
+import renault_fluence  from "../images/renault-fluence.png"
+import renault_Triber from '../images/Renault_Tribe.png'
+import renault_koleos from '../images/renault-koleos.png'
+
+// honda
+
+import honda_city from '../images/honda-city.png'
 
 export const carModelsByBrand = {
   maruti: [
@@ -511,6 +529,145 @@ export const carModelsByBrand = {
       description: "The Nissan Micra is a compact, agile 5-seater hatchback known for its stylish, rounded design, fuel-efficient engines (1.2L petrol/1.5L diesel), and easy maneuverability, making it ideal for city driving.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
     
+    },
+    {
+      id: 2, 
+      name: "Nissan Sunny", 
+      image: nissan_sunny,
+      type: "Nissan Sunny",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Nissan Sunny is a 5-seater compact sedan known for its exceptional rear-seat legroom and massive cabin space, often marketed as a spacious family car.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    
+    },
+    {
+      id: 3, 
+      name: "Nissan Terrano", 
+      image: nissan_terrano,
+      type: "Nissan Terrano",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Nissan Terrano is a 5-seater compact SUV known for its robust build, excellent ride quality, and spacious cabin.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+    {
+      id: 4, 
+      name: "Nissan Teana", 
+      image: nissan_teana,
+      type: "Nissan Teana",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Nissan Teana is a premium, comfortable 5-seater sedan (last sold around 2014) focusing on cabin luxury and a smooth ride. It generally features a 2.5L V6 petrol engine, automatic transmission, and high-quality cabin materials.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+    {
+      id: 5, 
+      name: "Nissan X-Trail", 
+      image: nissan_x_trail,
+      type: "Nissan X-Trail",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Nissan X-Trail is a versatile, family-focused SUV known for its comfortable ride, spacious interior, and optional 7-seat configuration.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+    {
+      id: 6, 
+      name: "Nissan GTR", 
+      image: nissan_gtr,
+      type: "Nissan GTR",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Nissan GT-R is a legendary high-performance sports car known for its powerful engine, advanced all-wheel-drive system, and cutting-edge technology.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+
+  ],
+
+  renault :[
+    {
+      id: 1, 
+      name: "Renault Kwid", 
+      image: renault_kwid,
+      type: "Renault Kwid",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Renault Kwid is a stylish, budget-friendly hatchback featuring an SUV-inspired design, 184mm high ground clearance, and a compact footprint ideal for city driving.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+     {
+      id: 2, 
+      name: "Renault Duster", 
+      image: renault_duster,
+      type: "Renault Duster",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "Duster (third-generation) is a rugged, 5-seater compact SUV designed for both city driving and off-road adventures, making a comeback with a focus on premium features and strong performance.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+    {
+      id: 3, 
+      name: "Renault Scala", 
+      image: renault_scala,
+      type: "Renault Scala",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Renault Scala is a badge-engineered, premium sedan based on the Nissan Sunny, featuring distinct Renault styling, a spacious cabin, and comfortable ride quality",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+    {
+      id: 4, 
+      name: "Renault Fluence", 
+      image: renault_fluence,
+      type: "Renault Fluence",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Renault Fluence is a comfortable compact sedan (or saloon) designed by the French manufacturer to offer a spacious, refined ride, often featuring a 1.5L dCi diesel engine in many markets.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+    {
+      id: 5, 
+      name: "Renault Triber", 
+      image: renault_Triber,
+      type: "Renault Triber",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Renault Triber is an affordable, sub-4-meter modular 7-seater MPV designed for families, featuring a 1.0L petrol engine with manual/AMT options.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+    {
+      id: 6, 
+      name: "Renault Koleos", 
+      image: renault_koleos,
+      type: "Renault Koleos",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Renault Koleos is a 5-seater mid-size crossover SUV produced by the French manufacturer Renault, known for blending European styling with comfort-focused practicality.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+  ],
+
+  honda :[
+    {
+      id: 1, 
+      name: "Honda City", 
+      image: honda_city,
+      type: "Honda City",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Honda City is a premium 5-seater sedan known for its refined 1.5-litre i-VTEC petrol engine, high-speed stability, and spacious, comfortable interior.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
     }
   ]
 
