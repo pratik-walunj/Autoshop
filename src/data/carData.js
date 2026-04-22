@@ -171,6 +171,19 @@ import porsche_cayman from '../images/porsche-cayman.png'
 import Porsche_Panamera from '../images/Porsche_Panamera.png'
 import Porsche_Boxter from '../images/Porsche-Boxter.png'
 
+
+// Lexus_NX
+
+import Lexus_NX from '../images/Lexus_NX.png'
+import lexus_RX from '../images/lexus_RX.png'
+import lexus_LX from '../images/lexus_LX.png'
+
+// ferrari 
+
+import ferrari_458 from '../images/ferrari-458.png'
+import ferrari from '../images/ferrari.png'
+
+
 export const carModelsByBrand = {
   maruti: [
     { 
@@ -1372,6 +1385,63 @@ export const carModelsByBrand = {
       price: ".....", // Different price for SUV
       oldPrice: ".....",
       description: "The Porsche Panamera is a high-performance luxury sedan that blends sports car dynamics with executive comfort, often featuring V6 or V8 turbo engines.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    }
+  ],
+
+  lexus :[
+    {
+      id: 1, 
+      name: "Lexus NX ", 
+      image: Lexus_NX,
+      type: "Lexus NX ",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Lexus NX is a premium compact luxury crossover SUV designed for an active urban lifestyle, balancing sharp styling with,Comfort, utility, and advanced technology.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+      id: 2, 
+      name: "Lexus RX ", 
+      image: lexus_RX,
+      type: "Lexus RX ",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Lexus RX is a five-passenger midsize luxury crossover SUV that is recognized as a best-selling, reliable, and comfortable family vehicle, often credited with pioneering the luxury crossover segment.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    
+    {
+      id: 3, 
+      name: "Lexus LX ", 
+      image: lexus_LX,
+      type: "Lexus LX ",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Lexus LX is a flagship full-size luxury SUV designed for both high-end comfort and rugged capability, often utilizing a twin-turbo V6 engine.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+  ],
+
+  ferrari :[
+    {
+      id: 1, 
+      name: "Ferrari 458 Speciale ", 
+      image: ferrari_458,
+      type: "Ferrari 458 Speciale",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ferrari 458 Speciale is a track-focused, lightweight evolution of the 458 Italia, often considered one of the best driver's cars ever made.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+     {
+      id: 2, 
+      name: "Ferrari 458 Italia", 
+      image: ferrari,
+      type: "Ferrari 458 Italia",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ferrari 458 Italia is a mid-engine, 2-seater sports car known for its 4.5L naturally aspirated V8 engine, producing 562 hp with a 9,000 RPM redline.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
     }
   ]
