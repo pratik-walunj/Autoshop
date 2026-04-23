@@ -59,7 +59,7 @@ const AboutUs = () => {
             </h3>
             {/* text-slate-200 is much easier to read on dark backgrounds than slate-400 */}
             <p className="text-slate-200 leading-relaxed text-lg">
-              Founded in 2008, <strong className="text-white">AutoShop</strong> started with a simple mission: to provide dealership-quality car repairs without the dealership price tag. Over the years, we have grown from a small two-bay garage into a state-of-the-art automotive care center.
+              Founded in 2008, <strong className="text-white">AutoService</strong> started with a simple mission: to provide dealership-quality car repairs without the dealership price tag. Over the years, we have grown from a small two-bay garage into a state-of-the-art automotive care center.
             </p>
             <p className="text-slate-200 leading-relaxed text-lg">
               Whether you drive a daily commuter or a high-end luxury vehicle, our philosophy remains the same: treat every car as if it were our own. We combine old-school craftsmanship with modern diagnostic technology to keep you safely on the road.
