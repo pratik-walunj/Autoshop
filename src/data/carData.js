@@ -182,6 +182,24 @@ import lexus_LX from '../images/lexus_LX.png'
 
 import ferrari_458 from '../images/ferrari-458.png'
 import ferrari from '../images/ferrari.png'
+import ferrari_california from '../images/ferrari_california.png'
+import ferrari_f12 from '../images/ferrari-f12.png'
+import ferrari_FF from '../images/Ferrari-FF.png'
+import ferarri_488 from '../images/ferarri-488.png'
+
+
+//lamborghini
+
+import lamborghini_huracan from '../images/lamborghini_huracan.png'
+import lamborghini_aventador from '../images/lamborghini_aventador.png'
+import lamborghini_gallardo from '../images/lamborghini_gallardo.png'
+
+
+//bentley
+
+import bentley_mulsanne from '../images/bentley-mulsanne.png'
+import bentley_continental from '../images/bentley_continental.png'
+import bentley_flying from '../images/bentley_flying.png'
 
 
 export const carModelsByBrand = {
@@ -1443,7 +1461,113 @@ export const carModelsByBrand = {
       oldPrice: ".....",
       description: "The Ferrari 458 Italia is a mid-engine, 2-seater sports car known for its 4.5L naturally aspirated V8 engine, producing 562 hp with a 9,000 RPM redline.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
-    }
+    },
+    {
+      id: 3, 
+      name: "Ferrari California", 
+      image: ferrari_california,
+      type: "Ferrari California",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ferrari California is a versatile grand touring (GT) hardtop convertible designed as an entry-level prancing horse suitable for daily driving.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+      id: 4, 
+      name: "Ferrari F12 Berlinetta", 
+      image: ferrari_f12,
+      type: "Ferrari F12 Berlinetta",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ferrari F12 berlinetta is a high-performance, front-mid-engine grand tourer produced .",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+      id: 5, 
+      name: "Ferrari FF", 
+      image: ferrari_FF,
+      type: "Ferrari FF",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ferrari FF Ferrari Four is a groundbreaking grand tourer introduced in 2011 as the brand's first-ever production all-wheel-drive model.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+      id: 6, 
+      name: "Ferrari 488", 
+      image: ferarri_488,
+      type: "Ferrari 488",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ferrari 488 is a high-performance, mid-engine sports car available as a berlinetta (GTB) or retractable hard-top convertible (Spider).",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+  ],
+
+  lamborghini :[
+    {
+      id: 1, 
+      name: "Lamborghini Huracan", 
+      image: lamborghini_huracan,
+      type: "Lamborghini Huracan",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Lamborghini Huracan is a mid-engine V10 Italian supercar known for its sharp, angular design, high-revving naturally aspirated engine, and user-friendly performance.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+      id: 2, 
+      name: "Lamborghini Aventador", 
+      image: lamborghini_aventador,
+      type: "Lamborghini Aventador",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Lamborghini Aventador is a legendary Italian V12 mid-engine supercar produced between 2011 and 2022, serving as the flagship successor to the Murciélago.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+      id: 3, 
+      name: "Lamborghini Gallardo", 
+      image: lamborghini_gallardo,
+      type: "Lamborghini Gallardo",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Lamborghini Gallardo is an iconic baby Lambo and the brand's most successful supercar of its era, bridging the gap between everyday usability and extreme performance.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+  ],
+
+  bentley :[
+    {
+      id: 1, 
+      name: "Bentley Mulsanne", 
+      image: bentley_mulsanne,
+      type: "Bentley Mulsanne",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Bentley Mulsanne was a British ultra-luxury flagship sedan known as the pinnacle of Bentley craftsmanship.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+      id: 2, 
+      name: "Bentley Continental", 
+      image: bentley_continental,
+      type: "Bentley Continental",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Bentley Continental is a premier luxury grand tourer, offering a blend of supercar performance and exquisite craftsmanship in coupe (GT) and convertible (GTC) forms.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+      id: 3, 
+      name: "Bentley Flying Spur", 
+      image: bentley_flying ,
+      type: "Bentley Flying Spur",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Bentley Flying Spur is a premier luxury four-door grand tourer, blending ultra-luxury, spaciousness, and supercar-level performance.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
   ]
 
     
